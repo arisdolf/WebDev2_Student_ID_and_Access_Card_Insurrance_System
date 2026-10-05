@@ -1,9 +1,9 @@
-CREATE DATABASE StudentSystem;
+CREATE DATABASE StudentIdSystem;
 
 
 /*
 vscode terminal command to create the tables and access them within terminal
-psql -U postgres -d StudentSystem -f server/sql/database.sql
+psql -U postgres -d StudentIdSystem -f server/sql/database.sql
 */
 CREATE TABLE IF NOT EXISTS users (
   user_id SERIAL PRIMARY KEY,
